@@ -1,6 +1,6 @@
-# AWS
+# aws
 
-[![Build Status](https://github.dronehippie.de/api/badges/toolhippie/aws/status.svg)](https://github.dronehippie.de/toolhippie/aws)
+[![Build Status](https://cloud.drone.io/api/badges/toolhippie/aws/status.svg)](https://cloud.drone.io/toolhippie/aws)
 [![](https://images.microbadger.com/badges/image/toolhippie/aws:latest.svg)](https://microbadger.com/images/toolhippie/aws:latest "Get your own image badge on microbadger.com")
 
 TBD
