@@ -1,0 +1,19 @@
+image: toolhippie/aws:latest
+manifests:
+  -
+    image: toolhippie/aws:amd64
+    platform:
+      architecture: amd64
+      os: linux
+  -
+    image: toolhippie/aws:arm64v8
+    platform:
+      architecture: arm64
+      os: linux
+      variant: v8
+  -
+    image: toolhippie/aws:arm32v6
+    platform:
+      architecture: arm
+      os: linux
+      variant: v6
