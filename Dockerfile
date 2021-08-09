@@ -3,7 +3,7 @@ FROM webhippie/python:3.7
 ENTRYPOINT ["/usr/bin/aws"]
 
 # renovate: datasource=pypi depName=awscli
-ENV AWSCLI_VERSION=1.20.16
+ENV AWSCLI_VERSION=1.20.17
 
 # renovate: datasource=pypi depName=s3cmd
 ENV S3CMD_VERSION=2.1.0
