@@ -1,6 +1,5 @@
 FROM webhippie/python:3.7
-
-ENTRYPOINT ["/usr/bin/aws"]
+ENTRYPOINT [""]
 
 # renovate: datasource=pypi depName=awscli
 ENV AWSCLI_VERSION=1.20.17
