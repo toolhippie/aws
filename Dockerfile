@@ -1,4 +1,4 @@
-FROM webhippie/python:3.9
+FROM webhippie/alpine:latest
 ENTRYPOINT [""]
 
 # renovate: datasource=pypi depName=awscli
@@ -9,5 +9,6 @@ ENV S3CMD_VERSION=2.1.0
 
 RUN apk update && \
   apk upgrade && \
+  apk add python3 python3-dev py3-pip && \
   pip3 install -U awscli==${AWSCLI_VERSION} s3cmd==${S3CMD_VERSION} python-magic && \
   rm -rf /var/cache/apk/* /root/.cache
