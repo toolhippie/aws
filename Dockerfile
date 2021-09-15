@@ -10,4 +10,4 @@ ENV S3CMD_VERSION=2.1.0
 RUN apk update && \
   apk upgrade && \
   pip3 install -U awscli==${AWSCLI_VERSION} s3cmd==${S3CMD_VERSION} python-magic && \
-  rm -rf /var/cache/apk/*
+  rm -rf /var/cache/apk/* /root/.cache
