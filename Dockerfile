@@ -5,7 +5,7 @@ ENTRYPOINT [""]
 ENV AWSCLI_VERSION=1.20.48
 
 # renovate: datasource=pypi depName=s3cmd
-ENV S3CMD_VERSION=2.1.0
+ENV S3CMD_VERSION=2.2.0
 
 RUN apk update && \
   apk upgrade && \
