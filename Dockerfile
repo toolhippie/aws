@@ -2,10 +2,10 @@ FROM webhippie/alpine:3.16
 ENTRYPOINT [""]
 
 # renovate: datasource=pypi depName=awscli
-ENV AWSCLI_VERSION=1.25.85
+ENV AWSCLI_VERSION=1.25.86
 
 # renovate: datasource=pypi depName=s3cmd
-ENV S3CMD_VERSION=2.2.0
+ENV S3CMD_VERSION=2.3.0
 
 RUN apk update && \
   apk upgrade && \
