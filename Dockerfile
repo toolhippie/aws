@@ -2,7 +2,7 @@ FROM webhippie/alpine:3.17
 ENTRYPOINT [""]
 
 # renovate: datasource=pypi depName=awscli
-ENV AWSCLI_VERSION=1.27.47
+ENV AWSCLI_VERSION=1.27.48
 
 # renovate: datasource=pypi depName=s3cmd
 ENV S3CMD_VERSION=2.3.0
