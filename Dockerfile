@@ -2,7 +2,7 @@ FROM ghcr.io/dockhippie/alpine:3.18
 ENTRYPOINT [""]
 
 # renovate: datasource=pypi depName=awscli
-ENV AWSCLI_VERSION=1.27.135
+ENV AWSCLI_VERSION=1.27.136
 
 # renovate: datasource=pypi depName=s3cmd
 ENV S3CMD_VERSION=2.3.0
